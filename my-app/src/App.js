@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProps";
-import StatefulGreeting from "./components/StatefulGreeting";
+import EventsClass from "./components/EventsClass";
+import EventsFunctional from "./components/EventsFunctional";
 
 function App() {
-  return (
-    <div className="App">
-        <StatefulGreeting greeting="I'm a stateful class component!"/>
-    </div>
-  );
+  return <div className="App">
+    <EventsFunctional />
+    <EventsClass />
+  </div>
 }
 
 export default App;
