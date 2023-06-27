@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import RenderingLists from "./components/RenderingLists";
+import LifeCyclesCDU from "./components/LifeCyclesCDU";
 
 function App() {
   return <div className="App">
-    <RenderingLists />
+     <LifeCyclesCDU />
   </div>; 
 }
 
