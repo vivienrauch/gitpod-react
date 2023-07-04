@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import SearchBar from "./components/SearchBar";
+import "./App.css";
+import HTTPHooks from "./components/HTTPHooks";
 
 function App() {
   return <div className="App">
-     <SearchBar />
-  </div>; 
+      <HTTPHooks />
+  </div>;
 }
 
 export default App;
